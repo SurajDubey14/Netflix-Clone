@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(56, 51, 51);
+}
+
+header {
+    background-image: url(/Images/IN-en-20220801-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 667px;
+    overflow: hidden;
+
+}
+
+main{
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -14px 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo img {
+    width: 162px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    padding: 0 25px;
+    gap: 23px;
+}
+
+.btn1 {
+    padding: 12px 31px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.btn2 {
+    padding: 12px 31px;
+    background-color: rgb(180, 58, 58);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: blue;
+}
+
+.main-contain {
+    text-align: center;
+    margin: 87px 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 63px;
+}
+
+h3 {
+    padding: 7px 0;
+}
+
+.email {
+    margin: 7px;
+}
+
+.email-bar {
+    margin: 33px 0;
+}
+
+.email-bar input {
+    height: 59px;
+    width: 471px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 21px;
+    cursor: pointer;
+}
+
+.btn3 {
+    height: 48px;
+    width: 128px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(180, 58, 5);
+    color: white;
+    cursor: pointer;
+    font-size: 19px;
+    margin: 6px 0;
+}
+
+.btn3:hover {
+    background-color: blue;
+}
+
+.cards {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 100vw;
+    background-color: black;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.card1 img {
+    width: 472px;
+}
+
+.card1 h1 {
+    color: white;
+    font-size: 56px;
+}
+
+.card1 p {
+    color: white;
+    margin: 38px 0;
+}
+
+.para {
+    padding: 0 116px;
+}
+
+.para P {
+    font-size: 22px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100vw;
+    background-color: black;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.card2 img {
+    width: 472px;
+}
+
+.card2 h1 {
+    color: white;
+    font-size: 56px;
+}
+
+.card2 p {
+    color: white;
+    margin: 38px 0;
+}
+
+.para1 {
+    padding: 0 116px;
+}
+
+.para2 P {
+    font-size: 22px;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 412px;
+    font-size: 14px;
+    width: 100vw;
+    text-transform: capitalize;
+    line-height: 55px;
+
+}
+
+.Questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.india {
+    text-align: center;
+}
+
+.card3 {
+
+    text-align: center;
+    background: black;
+    color: white;
+    margin: 6px 0;
+    height: 693px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.card3 h1{
+    font-size: 47px;
+}
+
+.card-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item2 {
+    background: white;
+    height: 54px;
+    width: 773px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    margin: 6px 0;
+}
+
+.item {
+    margin: 83px 0;
+}
+
+footer p{
+    cursor: pointer;
+}

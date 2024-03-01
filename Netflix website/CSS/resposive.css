@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 950px) {
+
+    .card1 img {
+        width: 376px;
+    }
+
+    .card1 h1 {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .para P {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .card2 img {
+        width: 376px;
+    }
+
+
+    .card2 h1 {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .para2 P {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .card3 h1 {
+        font-size: 38px;
+    }
+
+    .item2 {
+        width: 580px;
+    }
+
+}
+
+@media screen and (max-width: 775px) {
+
+   
+
+    .card1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .card1 img {
+        width: 335px;
+    }
+
+    .card1 h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .para P {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .card2 img {
+        width: 209px;
+    }
+
+    .card2 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .card2 h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .para2 P {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .card3 h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .item2 {
+        width: 459px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .email p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 523px) {
+
+    
+
+    .email-bar input {
+        width: 428px;
+    }
+
+    .item2 {
+        width: 305px;
+    }
+
+    .logo img {
+
+        width: 123px;
+        margin: 14px -29px;
+
+    }
+
+    .icons {
+        margin: 0 -45px;
+    }
+
+
+}
+
+@media screen and (max-width: 476px) {
+   
+
+    .email-bar input {
+        width: 80vw;
+    }
+
+    .card1 img {
+        width: 242px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 37px;
+    }
+
+    .btn3 {
+        width: 98px;
+        height: 34px;
+    }
+
+    .card1 img {
+        width: 62vw;
+    }
+
+    h1 {
+        font-size: 4vh;
+    }
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item2 {
+        width: 33vh;
+    }
+
+    .card3 h1 {
+        padding: 2px 0;
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .copyright {
+        font-size: 2vw;
+    }
+
+    .india {
+        font-size: 3vw;
+    }
+}
